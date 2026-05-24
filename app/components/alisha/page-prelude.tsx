@@ -6,6 +6,40 @@ const htmlAttrs = (values: Record<string, string>) =>
 export function PagePrelude() {
   return (
     <Fragment>
+      <script key="elementor-config-fallbacks">{`
+        window.elementorFrontendConfig = window.elementorFrontendConfig || { urls: { assets: "/assets/" } };
+        window.ElementorProFrontendConfig = window.ElementorProFrontendConfig || { urls: { assets: "/assets/" } };
+        window.fbq = window.fbq || function() {
+          (window.fbq.q = window.fbq.q || []).push(arguments);
+        };
+        window.fbq.queue = window.fbq.queue || [];
+        window.fbq.registerPlugin = window.fbq.registerPlugin || function() {};
+        window.fbq.loadPlugin = window.fbq.loadPlugin || function() {};
+        
+        // Safe interceptor for Facebook Pixel module loading race conditions
+        (function() {
+          var realGetter = null;
+          Object.defineProperty(window.fbq, 'getFbeventsModules', {
+            get: function() {
+              return function(e) {
+                if (realGetter) {
+                  try {
+                    return realGetter(e);
+                  } catch (err) {
+                    return {};
+                  }
+                }
+                return {};
+              };
+            },
+            set: function(val) {
+              realGetter = val;
+            },
+            configurable: true
+          });
+        })();
+      `}</script>
+      {"\n"}
       <script id="wc-wp-offline-redirect">{`
 (function(){
   var targetDomain = "studio.goodchoice.id";
