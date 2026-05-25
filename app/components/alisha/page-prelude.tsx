@@ -6,7 +6,7 @@ const htmlAttrs = (values: Record<string, string>) =>
 export function PagePrelude() {
   return (
     <Fragment>
-      <script key="elementor-config-fallbacks">{`
+      <script key="gc-config-fallbacks">{`
         window.elementorFrontendConfig = window.elementorFrontendConfig || { urls: { assets: "/assets/" } };
         window.ElementorProFrontendConfig = window.ElementorProFrontendConfig || { urls: { assets: "/assets/" } };
         window.fbq = window.fbq || function() {
