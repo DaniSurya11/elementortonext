@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-05-25T13:53:11.552Z",
+  "tolerance": 0.02,
+  "results": [
+    {
+      "state": "cover",
+      "label": "Cover Terkunci (sebelum klik)",
+      "mismatch": 0.11124821140025555,
+      "pct": "11.12",
+      "pass": false,
+      "diffPath": "compare/diff-cover.png"
+    },
+    {
+      "state": "opened",
+      "label": "Setelah klik \"Buka Undangan\"",
+      "mismatch": 0.1194536432175806,
+      "pct": "11.95",
+      "pass": false,
+      "diffPath": "compare/diff-opened.png"
+    },
+    {
+      "state": "scroll",
+      "label": "Scroll 50% halaman",
+      "mismatch": 0.10985286359765468,
+      "pct": "10.99",
+      "pass": false,
+      "diffPath": "compare/diff-scroll.png"
+    }
+  ]
+}

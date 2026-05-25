@@ -1,7 +1,7 @@
 export function CoverFixedSection() {
   return (
     <div
-      className="gc-element gc-element-6715487c e-con-full elementor-hidden-mobile elementor-hidden-tablet e-flex e-con e-child elementor-sticky elementor-sticky--active elementor-section--handles-inside elementor-sticky--effects"
+      className="elementor-element elementor-element-6715487c gc-element gc-element-6715487c e-con-full elementor-hidden-mobile elementor-hidden-tablet e-flex e-con e-child elementor-sticky elementor-sticky--active elementor-section--handles-inside elementor-sticky--effects"
       data-id="6715487c"
       data-settings='{"sticky":"top","sticky_on":["desktop","tablet","mobile"],"sticky_offset":0,"sticky_effects_offset":0,"sticky_anchor_link_offset":0}'
       style={{
@@ -13,16 +13,16 @@ export function CoverFixedSection() {
       }}
     >
       <div
-        className="gc-element gc-element-49714b67 e-con-full elementor-hidden-mobile e-flex e-con e-child"
+        className="elementor-element elementor-element-49714b67 gc-element gc-element-49714b67 e-con-full elementor-hidden-mobile e-flex e-con e-child"
         data-id="49714b67"
         data-settings='{"background_background":"classic"}'
       >
         <div
-          className="gc-element gc-element-f5c6215 e-con-full e-flex e-con e-child"
+          className="elementor-element elementor-element-f5c6215 gc-element gc-element-f5c6215 e-con-full e-flex e-con e-child"
           data-id="f5c6215"
         >
           <div
-            className="gc-element gc-element-4e956f02 gc-widget gc-widget-heading"
+            className="elementor-element elementor-element-4e956f02 gc-element gc-element-4e956f02 elementor-widget gc-widget elementor-widget-heading gc-widget-heading"
             data-id="4e956f02"
           >
             <h2 className="gc-heading-title gc-size-default">
@@ -30,7 +30,7 @@ export function CoverFixedSection() {
             </h2>
           </div>
           <div
-            className="gc-element gc-element-a04b776 gc-widget gc-widget-heading"
+            className="elementor-element elementor-element-a04b776 gc-element gc-element-a04b776 elementor-widget gc-widget elementor-widget-heading gc-widget-heading"
             data-id="a04b776"
           >
             <h2 className="gc-heading-title gc-size-default">
@@ -38,7 +38,7 @@ export function CoverFixedSection() {
             </h2>
           </div>
           <div
-            className="gc-element gc-element-7e79c14a gc-widget gc-widget-heading"
+            className="elementor-element elementor-element-7e79c14a gc-element gc-element-7e79c14a elementor-widget gc-widget elementor-widget-heading gc-widget-heading"
             data-id="7e79c14a"
           >
             <h2 className="gc-heading-title gc-size-default">
